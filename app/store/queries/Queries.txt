@@ -1,0 +1,47 @@
+
+usePOSTMutation
+
+===== PENDING =====
+```
+    isError : false
+    isLoading : false
+    isSuccess : false
+    isUninitialized : true
+    originalArgs : undefined
+    reset : () => {…}
+    status : "uninitialized"
+```
+
+===== SUCCESS =====
+```
+data: undefined
+endpointName: "login"
+fulfilledTimeStamp : 1703409912256
+isError : false
+isLoading : false
+isSuccess : true
+isUninitialized : false
+originalArgs : {email: ' ', password: ' '}
+requestId : "NwN9P2niiFry1-A-ZX8Lb"
+reset : () => {…}
+startedTimeStamp : 1703409911298
+status : "fulfilled"
+
+```
+
+===== ERROR =====
+```
+    endpointName : "login"
+    error :
+        data : {success: false, errors: {…}, message: 'The submitted data has errors, please verify the submitted form/data'}
+        status : 400
+    isError : true
+    isLoading : false
+    isSuccess : false
+    isUninitialized : false
+    originalArgs : {email: ' ', password: ' '}
+    requestId : "Wko_vA7aTC53C-_FYVHB8"
+    reset : () => {…}
+    startedTimeStamp : 1703409717683
+    status : "rejected"
+```
