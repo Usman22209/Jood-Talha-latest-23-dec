@@ -1,0 +1,30 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": "app",
+    "paths": {
+      "constants": ["./constants"],
+      "styles": ["./styles"],
+      "utils": ["./utils"],
+      "data": ["./data"],
+      "store": ["./store"],
+      "pngs": ["./assets/images/pngs"],
+      "svgs": ["./assets/images/svgs"],
+      "reducers": ["./reducers"],
+      "components": ["./components/"],
+      "hooks": ["./hooks/*"],
+      "i18n": ["./i18n/*"],
+      "navigation": ["./navigation/*"],
+      "screens": ["./screens/*"]
+    },
+   
+    
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ]
+}

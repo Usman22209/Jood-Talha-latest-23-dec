@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Jood",
+    "slug": "Jood",
+    "version": "1.0.0",
+    "description": "QF - Jood Privilege Program",
+    "orientation": "portrait",
+    "icon": "./app/assets/images/app-icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.novalabsdevelopers.Jood",
+      "icon": "./app/assets/images/app-icon.png",
+      "launchScreen": {
+        "image": "./app/assets/images/splash-screen.png"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/images/app-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.novalabsdevelopers.Jood",
+      "icon": "./app/assets/images/app-icon.png"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./app/assets/images/app-icon.png"
+    },
+    "splash": {
+      "image": "./app/assets/images/splash-screen.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./app/assets/images/splash-screen.png",
+          "imageWidth": 200,
+          "resizeMode": "cover",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-font",
+      "expo-localization"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "0be9f2b2-b43b-4abb-ad55-5e04919e23f4"
+      }
+    }
+  }
+}
